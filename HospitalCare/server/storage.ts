@@ -1,4 +1,4 @@
-import { users, User, InsertUser, appointments, Appointment, InsertAppointment, beds, Bed, InsertBed, prescriptions, Prescription, InsertPrescription, doctorSchedules, DoctorSchedule, InsertDoctorSchedule } from "@shared/schema";
+import { users, User, InsertUser, appointments, Appointment, InsertAppointment, beds, Bed, InsertBed, prescriptions, Prescription, InsertPrescription, doctorSchedules, DoctorSchedule, InsertDoctorSchedule } from "@db/schema";
 import session from "express-session";
 import createMemoryStore from "memorystore";
 
